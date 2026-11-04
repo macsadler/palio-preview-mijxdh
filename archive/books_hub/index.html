@@ -1,95 +1,76 @@
 <!doctype html>
-<html lang="it" data-root="../../">
+<html lang="it" data-root="../../" data-theme="siena">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Books hub pages (libri_&lt;contrada&gt;) · Archivio del Palio di Siena</title>
-<meta name="color-scheme" content="light dark">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#0F1530">
 
 <meta name="robots" content="noindex,nofollow">
 <link rel="icon" href="data:,">
 <link rel="stylesheet" href="../../assets/style.css">
+<link rel="stylesheet" href="../../assets/gallery.css">
+<link rel="stylesheet" href="../../assets/siena.css">
 </head>
-<body>
+<body class="theme-siena">
 <a class="skip" href="#main" data-i18n="skip">Vai al contenuto</a>
+<div class="duomo" aria-hidden="true"></div>
 <header class="site">
  <div class="wrap">
-  <div class="top">
-   <a class="brand" href="../../index.html"><span data-i18n="site.title">Archivio del Palio di Siena</span><small data-i18n="site.tagline">Prototipo privato di riscrittura di ilpalio.org</small></a>
+  <div class="bar1">
+   <a class="brand" href="../../index.html">
+    <svg class="balz" viewBox="0 0 40 46" aria-hidden="true"><path d="M3 3h34v22c0 10-8 16-17 19C11 41 3 35 3 25z" fill="#1A1A1A"/><path d="M3 3h34v21H3z" fill="#FFFFFF"/><path d="M3 3h34v22c0 10-8 16-17 19C11 41 3 35 3 25z" fill="none" stroke="#C9A227" stroke-width="2"/></svg>
+    <span><b data-i18n="site.title">Archivio del Palio di Siena</b><small data-i18n="site.tagline">Prototipo privato di riscrittura di ilpalio.org</small></span>
+   </a>
    <nav class="main" aria-label="Principale">
     <ul>
-     <li><a href="../../index.html" data-i18n="nav.home">Home</a></li><li><a href="../../timeline.html" data-i18n="nav.races">Cronologia</a></li><li><a href="../../contrade/index.html" data-i18n="nav.contrade">Contrade</a></li><li><a href="../../jockeys/index.html" data-i18n="nav.jockeys">Fantini</a></li><li><a href="../../horses/index.html" data-i18n="nav.horses">Cavalli</a></li><li><a href="../../stats/index.html" data-i18n="nav.stats">Statistiche</a></li><li><a href="../../archive/index.html" aria-current="page" data-i18n="nav.archive">Tutte le pagine</a></li>
+     <li><a href="../../index.html" data-i18n="nav.home">Home</a></li><li><a href="../../timeline.html" data-i18n="nav.races">Cronologia</a></li><li><a href="../../contrade/index.html" data-i18n="nav.contrade">Contrade</a></li><li><a href="../../jockeys/index.html" data-i18n="nav.jockeys">Fantini</a></li><li><a href="../../horses/index.html" data-i18n="nav.horses">Cavalli</a></li><li><a href="../../stats/index.html" data-i18n="nav.stats">Statistiche</a></li><li><a href="../../rivalries.html" data-i18n="nav.rivalries">Amiche e rivali</a></li><li><a href="../../archive/index.html" aria-current="page" data-i18n="nav.archive">Tutte le pagine</a></li>
     </ul>
    </nav>
-   <div class="tools">
-    <div class="search" role="search">
-     <label class="sr" for="q" style="position:absolute;left:-999px" data-i18n="search.label">Cerca nell&#39;archivio</label>
-     <input id="q" type="search" autocomplete="off" placeholder="Cerca fantino, cavallo, contrada, anno…" data-i18n-attr="placeholder:search.placeholder" aria-controls="results">
-     <div id="results" class="results" hidden></div>
-    </div>
-    <button id="lang-toggle" type="button" lang="en">English</button>
+   <button id="lang-toggle" type="button" lang="en">English</button>
+  </div>
+  
+  <div class="searchrow">
+   <div class="search" role="search">
+    <label class="sr" for="q" data-i18n="search.label">Cerca nell&#39;archivio</label>
+    <input id="q" type="search" autocomplete="off" placeholder="Cerca fantino, cavallo, contrada, anno…" data-i18n-attr="placeholder:search.placeholder" aria-controls="results">
+    <div id="results" class="results" hidden></div>
    </div>
   </div>
+  
  </div>
 </header>
 <main id="main" class="wrap">
 
 <p class="crumbs"><a href="../../archive/index.html" data-i18n="nav.archive">Tutte le pagine</a></p>
 <h1>Books hub pages (libri_&lt;contrada&gt;)</h1>
-<p class="lede">19 pagine</p>
+<p class="lede">19 <span data-i18n="list.pages">pagine</span></p>
 
-<ul class="plain">
-<li><a href="libri.html">I libri sul Palio di Siena</a> <span class="muted small">libri.htm</span>
-</li>
-<li><a href="libri-aquila.html">I libri della Nobil Contrada dell&#39;Aquila</a> <span class="muted small">libri_aquila.htm</span>
-</li>
-<li><a href="libri-bruco.html">I libri della Nobil Contrada del Bruco</a> <span class="muted small">libri_bruco.htm</span>
-</li>
-<li><a href="libri-chiocciola.html">I libri della Chiocciola</a> <span class="muted small">libri_chiocciola.htm</span>
-</li>
-<li><a href="libri-civetta.html">I libri della Contrada Priora della Civetta</a> <span class="muted small">libri_civetta.htm</span>
-</li>
-<li><a href="libri-contrade.html">Palio di Siena - Le copertine dei libri editi dalle delle contrade</a> <span class="muted small">libri_contrade.htm</span>
-</li>
-<li><a href="libri-drago.html">I libri del Drago</a> <span class="muted small">libri_drago.htm</span>
-</li>
-<li><a href="libri-giraffa.html">I libri della Imperiale Contrada della Giraffa</a> <span class="muted small">libri_giraffa.htm</span>
-</li>
-<li><a href="libri-istrice.html">I libri della Contrada Sovrana dell&#39;Istrice</a> <span class="muted small">libri_istrice.htm</span>
-</li>
-<li><a href="libri-leocorno.html">I libri della Contrada del Leocorno</a> <span class="muted small">libri_leocorno.htm</span>
-</li>
-<li><a href="libri-lupa.html">I libri della Contrada della Lupa</a> <span class="muted small">libri_lupa.htm</span>
-</li>
-<li><a href="libri-nicchio.html">I libri della Nobile Contrada del Nicchio</a> <span class="muted small">libri_nicchio.htm</span>
-</li>
-<li><a href="libri-oca.html">I libri della Nobil Contrada dell&#39;Oca</a> <span class="muted small">libri_oca.htm</span>
-</li>
-<li><a href="libri-onda.html">I libri della Contrada Capitana dell&#39;Onda</a> <span class="muted small">libri_onda.htm</span>
-</li>
-<li><a href="libri-pantera.html">I libri della Pantera</a> <span class="muted small">libri_pantera.htm</span>
-</li>
-<li><a href="libri-selva.html">I libri della Contrada della Selva</a> <span class="muted small">libri_selva.htm</span>
-</li>
-<li><a href="libri-tartuca.html">I libri della Contrada della Tartuca</a> <span class="muted small">libri_tartuca.htm</span>
-</li>
-<li><a href="libri-torre.html">I libri della Contrada della Torre</a> <span class="muted small">libri_torre.htm</span>
-</li>
-<li><a href="libri-valdimontone.html">I libri della Contrada di Valdimontone</a> <span class="muted small">libri_valdimontone.htm</span>
-</li>
 
-</ul>
+<div class="thumbs gallery-scope"><a class="th" href="libri.html" data-page="libri.html"><img src="https://www.ilpalio.org/hercolani.jpg" alt="I libri sul Palio di Siena" loading="lazy" referrerpolicy="no-referrer"><span>I libri sul Palio di Siena</span></a><a class="th" href="libri-aquila.html" data-page="libri-aquila.html"><img src="https://www.ilpalio.org/libri1139.jpg" alt="I libri della Nobil Contrada dell&#39;Aquila" loading="lazy" referrerpolicy="no-referrer"><span>I libri della Nobil Contrada dell&#39;Aquila</span></a><a class="th" href="libri-bruco.html" data-page="libri-bruco.html"><img src="https://www.ilpalio.org/libri767.jpg" alt="I libri della Nobil Contrada del Bruco" loading="lazy" referrerpolicy="no-referrer"><span>I libri della Nobil Contrada del Bruco</span></a><a class="th" href="libri-chiocciola.html" data-page="libri-chiocciola.html"><img src="https://www.ilpalio.org/libri1231.jpg" alt="I libri della Chiocciola" loading="lazy" referrerpolicy="no-referrer"><span>I libri della Chiocciola</span></a><a class="th" href="libri-civetta.html" data-page="libri-civetta.html"><img src="https://www.ilpalio.org/libri1226.jpg" alt="I libri della Contrada Priora della Civetta" loading="lazy" referrerpolicy="no-referrer"><span>I libri della Contrada Priora della Civetta</span></a><a class="th" href="libri-contrade.html" data-page="libri-contrade.html"><img src="https://www.ilpalio.org/hercolani.jpg" alt="Palio di Siena - Le copertine dei libri editi dalle delle contrade" loading="lazy" referrerpolicy="no-referrer"><span>Palio di Siena - Le copertine dei libri editi dalle delle contrade</span></a><a class="th" href="libri-drago.html" data-page="libri-drago.html"><img src="https://www.ilpalio.org/libri700.jpg" alt="I libri del Drago" loading="lazy" referrerpolicy="no-referrer"><span>I libri del Drago</span></a><a class="th" href="libri-giraffa.html" data-page="libri-giraffa.html"><img src="https://www.ilpalio.org/libri1138.jpg" alt="I libri della Imperiale Contrada della Giraffa" loading="lazy" referrerpolicy="no-referrer"><span>I libri della Imperiale Contrada della Giraffa</span></a><a class="th" href="libri-istrice.html" data-page="libri-istrice.html"><img src="https://www.ilpalio.org/libri695.jpg" alt="I libri della Contrada Sovrana dell&#39;Istrice" loading="lazy" referrerpolicy="no-referrer"><span>I libri della Contrada Sovrana dell&#39;Istrice</span></a><a class="th" href="libri-leocorno.html" data-page="libri-leocorno.html"><img src="https://www.ilpalio.org/libri1175.jpg" alt="I libri della Contrada del Leocorno" loading="lazy" referrerpolicy="no-referrer"><span>I libri della Contrada del Leocorno</span></a><a class="th" href="libri-lupa.html" data-page="libri-lupa.html"><img src="https://www.ilpalio.org/libri704.jpg" alt="I libri della Contrada della Lupa" loading="lazy" referrerpolicy="no-referrer"><span>I libri della Contrada della Lupa</span></a><a class="th" href="libri-nicchio.html" data-page="libri-nicchio.html"><img src="https://www.ilpalio.org/libri723.jpg" alt="I libri della Nobile Contrada del Nicchio" loading="lazy" referrerpolicy="no-referrer"><span>I libri della Nobile Contrada del Nicchio</span></a><a class="th" href="libri-oca.html" data-page="libri-oca.html"><img src="https://www.ilpalio.org/libri1076.jpg" alt="I libri della Nobil Contrada dell&#39;Oca" loading="lazy" referrerpolicy="no-referrer"><span>I libri della Nobil Contrada dell&#39;Oca</span></a><a class="th" href="libri-onda.html" data-page="libri-onda.html"><img src="https://www.ilpalio.org/libri1140.jpg" alt="I libri della Contrada Capitana dell&#39;Onda" loading="lazy" referrerpolicy="no-referrer"><span>I libri della Contrada Capitana dell&#39;Onda</span></a><a class="th" href="libri-pantera.html" data-page="libri-pantera.html"><img src="https://www.ilpalio.org/libri712.jpg" alt="I libri della Pantera" loading="lazy" referrerpolicy="no-referrer"><span>I libri della Pantera</span></a><a class="th" href="libri-selva.html" data-page="libri-selva.html"><img src="https://www.ilpalio.org/libri1227.jpg" alt="I libri della Contrada della Selva" loading="lazy" referrerpolicy="no-referrer"><span>I libri della Contrada della Selva</span></a><a class="th" href="libri-tartuca.html" data-page="libri-tartuca.html"><img src="https://www.ilpalio.org/libri713.jpg" alt="I libri della Contrada della Tartuca" loading="lazy" referrerpolicy="no-referrer"><span>I libri della Contrada della Tartuca</span></a><a class="th" href="libri-torre.html" data-page="libri-torre.html"><img src="https://www.ilpalio.org/libri696.jpg" alt="I libri della Contrada della Torre" loading="lazy" referrerpolicy="no-referrer"><span>I libri della Contrada della Torre</span></a><a class="th" href="libri-valdimontone.html" data-page="libri-valdimontone.html"><img src="https://www.ilpalio.org/libri1075.jpg" alt="I libri della Contrada di Valdimontone" loading="lazy" referrerpolicy="no-referrer"><span>I libri della Contrada di Valdimontone</span></a></div>
+
 
 </main>
+<div class="duomo" aria-hidden="true"></div>
 <footer class="site">
  <div class="wrap">
-  <p>Indice generato per la copia privata di lavoro dell&#39;archivio di ilpalio.org. Nessuna pubblicità, nessun fine commerciale.
-   </p>
+  <p>Indice generato per la copia privata di lavoro dell&#39;archivio di ilpalio.org. Nessuna pubblicità, nessun fine commerciale.</p>
   
   <p data-i18n="footer.derived">I dati contrassegnati come «derivato» sono calcolati o dedotti, non letti dalla fonte.</p>
+  <p class="muted"><span data-i18n="footer.nonprofit">Nessuna pubblicità, nessun fine commerciale.</span></p>
  </div>
 </footer>
+<nav class="tabbar" aria-label="Navigazione principale" data-i18n-attr="aria-label:skip.tabs">
+ <a href="../../index.html" data-i18n="nav.home">Home</a>
+ <a href="../../timeline.html" data-i18n="nav.races">Cronologia</a>
+ <a href="../../contrade/index.html" data-i18n="nav.contrade">Contrade</a>
+ <a href="../../jockeys/index.html" data-i18n="nav.jockeys">Fantini</a>
+ <a href="../../horses/index.html" data-i18n="nav.horses">Cavalli</a>
+ <a href="#q" id="tab-search" data-i18n="tab.search">Cerca</a>
+</nav>
 <script src="../../assets/i18n.js"></script>
 <script src="../../assets/app.js" defer></script>
+<script src="../../assets/gallery.js" defer></script>
 </body>
 </html>
