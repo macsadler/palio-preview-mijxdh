@@ -1,245 +1,76 @@
 <!doctype html>
-<html lang="it" data-root="../../">
+<html lang="it" data-root="../../" data-theme="siena">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Postcard gallery · Archivio del Palio di Siena</title>
-<meta name="color-scheme" content="light dark">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#0F1530">
 
 <meta name="robots" content="noindex,nofollow">
 <link rel="icon" href="data:,">
 <link rel="stylesheet" href="../../assets/style.css">
+<link rel="stylesheet" href="../../assets/gallery.css">
+<link rel="stylesheet" href="../../assets/siena.css">
 </head>
-<body>
+<body class="theme-siena">
 <a class="skip" href="#main" data-i18n="skip">Vai al contenuto</a>
+<div class="duomo" aria-hidden="true"></div>
 <header class="site">
  <div class="wrap">
-  <div class="top">
-   <a class="brand" href="../../index.html"><span data-i18n="site.title">Archivio del Palio di Siena</span><small data-i18n="site.tagline">Prototipo privato di riscrittura di ilpalio.org</small></a>
+  <div class="bar1">
+   <a class="brand" href="../../index.html">
+    <svg class="balz" viewBox="0 0 40 46" aria-hidden="true"><path d="M3 3h34v22c0 10-8 16-17 19C11 41 3 35 3 25z" fill="#1A1A1A"/><path d="M3 3h34v21H3z" fill="#FFFFFF"/><path d="M3 3h34v22c0 10-8 16-17 19C11 41 3 35 3 25z" fill="none" stroke="#C9A227" stroke-width="2"/></svg>
+    <span><b data-i18n="site.title">Archivio del Palio di Siena</b><small data-i18n="site.tagline">Prototipo privato di riscrittura di ilpalio.org</small></span>
+   </a>
    <nav class="main" aria-label="Principale">
     <ul>
-     <li><a href="../../index.html" data-i18n="nav.home">Home</a></li><li><a href="../../timeline.html" data-i18n="nav.races">Cronologia</a></li><li><a href="../../contrade/index.html" data-i18n="nav.contrade">Contrade</a></li><li><a href="../../jockeys/index.html" data-i18n="nav.jockeys">Fantini</a></li><li><a href="../../horses/index.html" data-i18n="nav.horses">Cavalli</a></li><li><a href="../../stats/index.html" data-i18n="nav.stats">Statistiche</a></li><li><a href="../../archive/index.html" aria-current="page" data-i18n="nav.archive">Tutte le pagine</a></li>
+     <li><a href="../../index.html" data-i18n="nav.home">Home</a></li><li><a href="../../timeline.html" data-i18n="nav.races">Cronologia</a></li><li><a href="../../contrade/index.html" data-i18n="nav.contrade">Contrade</a></li><li><a href="../../jockeys/index.html" data-i18n="nav.jockeys">Fantini</a></li><li><a href="../../horses/index.html" data-i18n="nav.horses">Cavalli</a></li><li><a href="../../stats/index.html" data-i18n="nav.stats">Statistiche</a></li><li><a href="../../rivalries.html" data-i18n="nav.rivalries">Amiche e rivali</a></li><li><a href="../../archive/index.html" aria-current="page" data-i18n="nav.archive">Tutte le pagine</a></li>
     </ul>
    </nav>
-   <div class="tools">
-    <div class="search" role="search">
-     <label class="sr" for="q" style="position:absolute;left:-999px" data-i18n="search.label">Cerca nell&#39;archivio</label>
-     <input id="q" type="search" autocomplete="off" placeholder="Cerca fantino, cavallo, contrada, anno…" data-i18n-attr="placeholder:search.placeholder" aria-controls="results">
-     <div id="results" class="results" hidden></div>
-    </div>
-    <button id="lang-toggle" type="button" lang="en">English</button>
+   <button id="lang-toggle" type="button" lang="en">English</button>
+  </div>
+  
+  <div class="searchrow">
+   <div class="search" role="search">
+    <label class="sr" for="q" data-i18n="search.label">Cerca nell&#39;archivio</label>
+    <input id="q" type="search" autocomplete="off" placeholder="Cerca fantino, cavallo, contrada, anno…" data-i18n-attr="placeholder:search.placeholder" aria-controls="results">
+    <div id="results" class="results" hidden></div>
    </div>
   </div>
+  
  </div>
 </header>
 <main id="main" class="wrap">
 
 <p class="crumbs"><a href="../../archive/index.html" data-i18n="nav.archive">Tutte le pagine</a></p>
 <h1>Postcard gallery</h1>
-<p class="lede">2094 pagine · pagina 6 di 6</p>
-<p><a href="index.html">1</a> <a href="index-2.html">2</a> <a href="index-3.html">3</a> <a href="index-4.html">4</a> <a href="index-5.html">5</a> <a href="index-6.html" aria-current="page">6</a> </p>
-<ul class="plain">
-<li><a href="cart914.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart914.htm</span>
-</li>
-<li><a href="cart915.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart915.htm</span>
-</li>
-<li><a href="cart916.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart916.htm</span>
-</li>
-<li><a href="cart917.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart917.htm</span>
-</li>
-<li><a href="cart918.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart918.htm</span>
-</li>
-<li><a href="cart919.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart919.htm</span>
-</li>
-<li><a href="cart92.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart92.htm</span>
-</li>
-<li><a href="cart920.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart920.htm</span>
-</li>
-<li><a href="cart921.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart921.htm</span>
-</li>
-<li><a href="cart922.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart922.htm</span>
-</li>
-<li><a href="cart923.html">Le cartoline d&#39;epoca - S.Gimignano</a> <span class="muted small">cart923.htm</span>
-</li>
-<li><a href="cart924.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart924.htm</span>
-</li>
-<li><a href="cart925.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart925.htm</span>
-</li>
-<li><a href="cart926.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart926.htm</span>
-</li>
-<li><a href="cart927.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart927.htm</span>
-</li>
-<li><a href="cart928.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart928.htm</span>
-</li>
-<li><a href="cart929.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart929.htm</span>
-</li>
-<li><a href="cart93.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart93.htm</span>
-</li>
-<li><a href="cart930.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart930.htm</span>
-</li>
-<li><a href="cart931.html">Le cartoline d&#39;epoca - S.Gimignano</a> <span class="muted small">cart931.htm</span>
-</li>
-<li><a href="cart932.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart932.htm</span>
-</li>
-<li><a href="cart933.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart933.htm</span>
-</li>
-<li><a href="cart934.html">Le cartoline d&#39;epoca - S.Gimignano</a> <span class="muted small">cart934.htm</span>
-</li>
-<li><a href="cart935.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart935.htm</span>
-</li>
-<li><a href="cart936.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart936.htm</span>
-</li>
-<li><a href="cart937.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart937.htm</span>
-</li>
-<li><a href="cart938.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart938.htm</span>
-</li>
-<li><a href="cart939.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart939.htm</span>
-</li>
-<li><a href="cart94.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart94.htm</span>
-</li>
-<li><a href="cart940.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart940.htm</span>
-</li>
-<li><a href="cart941.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart941.htm</span>
-</li>
-<li><a href="cart942.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart942.htm</span>
-</li>
-<li><a href="cart943.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart943.htm</span>
-</li>
-<li><a href="cart944.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart944.htm</span>
-</li>
-<li><a href="cart945.html">Le cartoline d&#39;epoca - S.Gimignano</a> <span class="muted small">cart945.htm</span>
-</li>
-<li><a href="cart946.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart946.htm</span>
-</li>
-<li><a href="cart947.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart947.htm</span>
-</li>
-<li><a href="cart948.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart948.htm</span>
-</li>
-<li><a href="cart949.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart949.htm</span>
-</li>
-<li><a href="cart95.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart95.htm</span>
-</li>
-<li><a href="cart950.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart950.htm</span>
-</li>
-<li><a href="cart951.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart951.htm</span>
-</li>
-<li><a href="cart952.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart952.htm</span>
-</li>
-<li><a href="cart953.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart953.htm</span>
-</li>
-<li><a href="cart954.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart954.htm</span>
-</li>
-<li><a href="cart955.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart955.htm</span>
-</li>
-<li><a href="cart956.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart956.htm</span>
-</li>
-<li><a href="cart957.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart957.htm</span>
-</li>
-<li><a href="cart958.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart958.htm</span>
-</li>
-<li><a href="cart959.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart959.htm</span>
-</li>
-<li><a href="cart96.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart96.htm</span>
-</li>
-<li><a href="cart960.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart960.htm</span>
-</li>
-<li><a href="cart961.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart961.htm</span>
-</li>
-<li><a href="cart962.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart962.htm</span>
-</li>
-<li><a href="cart963.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart963.htm</span>
-</li>
-<li><a href="cart964.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart964.htm</span>
-</li>
-<li><a href="cart965.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart965.htm</span>
-</li>
-<li><a href="cart966.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart966.htm</span>
-</li>
-<li><a href="cart967.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart967.htm</span>
-</li>
-<li><a href="cart968.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart968.htm</span>
-</li>
-<li><a href="cart969.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart969.htm</span>
-</li>
-<li><a href="cart97.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart97.htm</span>
-</li>
-<li><a href="cart970.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart970.htm</span>
-</li>
-<li><a href="cart971.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart971.htm</span>
-</li>
-<li><a href="cart972.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart972.htm</span>
-</li>
-<li><a href="cart973.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart973.htm</span>
-</li>
-<li><a href="cart974.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart974.htm</span>
-</li>
-<li><a href="cart975.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart975.htm</span>
-</li>
-<li><a href="cart976.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart976.htm</span>
-</li>
-<li><a href="cart977.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart977.htm</span>
-</li>
-<li><a href="cart978.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart978.htm</span>
-</li>
-<li><a href="cart979.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart979.htm</span>
-</li>
-<li><a href="cart98.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart98.htm</span>
-</li>
-<li><a href="cart980.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart980.htm</span>
-</li>
-<li><a href="cart981.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart981.htm</span>
-</li>
-<li><a href="cart982.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart982.htm</span>
-</li>
-<li><a href="cart983.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart983.htm</span>
-</li>
-<li><a href="cart984.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart984.htm</span>
-</li>
-<li><a href="cart985.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart985.htm</span>
-</li>
-<li><a href="cart986.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart986.htm</span>
-</li>
-<li><a href="cart987.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart987.htm</span>
-</li>
-<li><a href="cart988.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart988.htm</span>
-</li>
-<li><a href="cart989.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart989.htm</span>
-</li>
-<li><a href="cart99.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart99.htm</span>
-</li>
-<li><a href="cart990.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart990.htm</span>
-</li>
-<li><a href="cart991.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart991.htm</span>
-</li>
-<li><a href="cart992.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart992.htm</span>
-</li>
-<li><a href="cart993.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart993.htm</span>
-</li>
-<li><a href="cart994.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart994.htm</span>
-</li>
-<li><a href="cart995.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart995.htm</span>
-</li>
-<li><a href="cart996.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart996.htm</span>
-</li>
-<li><a href="cart997.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart997.htm</span>
-</li>
-<li><a href="cart998.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart998.htm</span>
-</li>
-<li><a href="cart999.html">Le cartoline d&#39;epoca</a> <span class="muted small">cart999.htm</span>
-</li>
+<p class="lede">2094 <span data-i18n="list.pages">pagine</span> · pagina 6 di 22</p>
+<p class="pager"><a href="index.html">1</a> <a href="index-2.html">2</a> <a href="index-3.html">3</a> <a href="index-4.html">4</a> <a href="index-5.html">5</a> <a href="index-6.html" aria-current="page">6</a> <a href="index-7.html">7</a> <a href="index-8.html">8</a> <a href="index-9.html">9</a> <a href="index-10.html">10</a> <a href="index-11.html">11</a> <a href="index-12.html">12</a> <a href="index-13.html">13</a> <a href="index-14.html">14</a> <a href="index-15.html">15</a> <a href="index-16.html">16</a> <a href="index-17.html">17</a> <a href="index-18.html">18</a> <a href="index-19.html">19</a> <a href="index-20.html">20</a> <a href="index-21.html">21</a> <a href="index-22.html">22</a> </p>
 
-</ul>
+<div class="thumbs gallery-scope"><a class="th" href="cart1402.html" data-page="cart1402.html"><img src="https://www.ilpalio.org/cart1402.jpg" alt="Le cartoline d&#39;epoca - S.Gimignano" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca - S.Gimignano</span></a><a class="th" href="cart1403.html" data-page="cart1403.html"><img src="https://www.ilpalio.org/cart1403.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1404.html" data-page="cart1404.html"><img src="https://www.ilpalio.org/cart1404.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1405.html" data-page="cart1405.html"><img src="https://www.ilpalio.org/cart1405.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1406.html" data-page="cart1406.html"><img src="https://www.ilpalio.org/cart1406.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1407.html" data-page="cart1407.html"><img src="https://www.ilpalio.org/cart1407.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1408.html" data-page="cart1408.html"><img src="https://www.ilpalio.org/cart1408.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1409.html" data-page="cart1409.html"><img src="https://www.ilpalio.org/cart1409.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart141.html" data-page="cart141.html"><img src="https://www.ilpalio.org/cart141.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1410.html" data-page="cart1410.html"><img src="https://www.ilpalio.org/cart1410.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1411.html" data-page="cart1411.html"><img src="https://www.ilpalio.org/cart1411.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1412.html" data-page="cart1412.html"><img src="https://www.ilpalio.org/cart1412.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1413.html" data-page="cart1413.html"><img src="https://www.ilpalio.org/cart1413.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1414.html" data-page="cart1414.html"><img src="https://www.ilpalio.org/cart1414.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1415.html" data-page="cart1415.html"><img src="https://www.ilpalio.org/cart1415.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1416.html" data-page="cart1416.html"><img src="https://www.ilpalio.org/cart1416.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1417.html" data-page="cart1417.html"><img src="https://www.ilpalio.org/cart1417.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1418.html" data-page="cart1418.html"><img src="https://www.ilpalio.org/cart1418.jpg" alt="Le cartoline d&#39;epoca - S.Gimignano" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca - S.Gimignano</span></a><a class="th" href="cart1419.html" data-page="cart1419.html"><img src="https://www.ilpalio.org/cart1419.jpg" alt="Le cartoline d&#39;epoca - S.Gimignano" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca - S.Gimignano</span></a><a class="th" href="cart142.html" data-page="cart142.html"><img src="https://www.ilpalio.org/cart142.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1420.html" data-page="cart1420.html"><img src="https://www.ilpalio.org/cart1420.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1421.html" data-page="cart1421.html"><img src="https://www.ilpalio.org/cart1421.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1422.html" data-page="cart1422.html"><img src="https://www.ilpalio.org/cart1422.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1423.html" data-page="cart1423.html"><img src="https://www.ilpalio.org/cart1423.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1424.html" data-page="cart1424.html"><img src="https://www.ilpalio.org/cart1424.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1425.html" data-page="cart1425.html"><img src="https://www.ilpalio.org/cart1425.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1426.html" data-page="cart1426.html"><img src="https://www.ilpalio.org/cart1426.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1427.html" data-page="cart1427.html"><img src="https://www.ilpalio.org/cart1427.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1428.html" data-page="cart1428.html"><img src="https://www.ilpalio.org/cart1428.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1429.html" data-page="cart1429.html"><img src="https://www.ilpalio.org/cart1429.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart143.html" data-page="cart143.html"><img src="https://www.ilpalio.org/cart143.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1430.html" data-page="cart1430.html"><img src="https://www.ilpalio.org/cart1430.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1431.html" data-page="cart1431.html"><img src="https://www.ilpalio.org/cart1431.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1432.html" data-page="cart1432.html"><img src="https://www.ilpalio.org/cart1432.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1433.html" data-page="cart1433.html"><img src="https://www.ilpalio.org/cart1433.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1434.html" data-page="cart1434.html"><img src="https://www.ilpalio.org/cart1434.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1435.html" data-page="cart1435.html"><img src="https://www.ilpalio.org/cart1435.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1436.html" data-page="cart1436.html"><img src="https://www.ilpalio.org/cart1436.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1437.html" data-page="cart1437.html"><img src="https://www.ilpalio.org/cart1437.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1438.html" data-page="cart1438.html"><img src="https://www.ilpalio.org/cart1438.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1439.html" data-page="cart1439.html"><img src="https://www.ilpalio.org/cart1439.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart144.html" data-page="cart144.html"><img src="https://www.ilpalio.org/cart144.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1440.html" data-page="cart1440.html"><img src="https://www.ilpalio.org/cart1440.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1441.html" data-page="cart1441.html"><img src="https://www.ilpalio.org/cart1441.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1442.html" data-page="cart1442.html"><img src="https://www.ilpalio.org/cart1442.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1443.html" data-page="cart1443.html"><img src="https://www.ilpalio.org/cart1443.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1444.html" data-page="cart1444.html"><img src="https://www.ilpalio.org/cart1444.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1445.html" data-page="cart1445.html"><img src="https://www.ilpalio.org/cart1445.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1446.html" data-page="cart1446.html"><img src="https://www.ilpalio.org/cart1446.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1447.html" data-page="cart1447.html"><img src="https://www.ilpalio.org/cart1447.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1448.html" data-page="cart1448.html"><img src="https://www.ilpalio.org/cart1448.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1449.html" data-page="cart1449.html"><img src="https://www.ilpalio.org/cart1449.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart145.html" data-page="cart145.html"><img src="https://www.ilpalio.org/cart145.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1450.html" data-page="cart1450.html"><img src="https://www.ilpalio.org/cart1450.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1451.html" data-page="cart1451.html"><img src="https://www.ilpalio.org/cart1451.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1452.html" data-page="cart1452.html"><img src="https://www.ilpalio.org/cart1452.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1453.html" data-page="cart1453.html"><img src="https://www.ilpalio.org/cart1453.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1454.html" data-page="cart1454.html"><img src="https://www.ilpalio.org/cart1454.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1455.html" data-page="cart1455.html"><img src="https://www.ilpalio.org/cart1455.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1456.html" data-page="cart1456.html"><img src="https://www.ilpalio.org/cart1456.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1457.html" data-page="cart1457.html"><img src="https://www.ilpalio.org/cart1457.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1458.html" data-page="cart1458.html"><img src="https://www.ilpalio.org/cart1458.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1459.html" data-page="cart1459.html"><img src="https://www.ilpalio.org/cart1459.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart146.html" data-page="cart146.html"><img src="https://www.ilpalio.org/cart146.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1460.html" data-page="cart1460.html"><img src="https://www.ilpalio.org/cart1460.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1461.html" data-page="cart1461.html"><img src="https://www.ilpalio.org/cart1461.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1462.html" data-page="cart1462.html"><img src="https://www.ilpalio.org/cart1462.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1463.html" data-page="cart1463.html"><img src="https://www.ilpalio.org/cart1463.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1464.html" data-page="cart1464.html"><img src="https://www.ilpalio.org/cart1464.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1465.html" data-page="cart1465.html"><img src="https://www.ilpalio.org/cart1465.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1466.html" data-page="cart1466.html"><img src="https://www.ilpalio.org/cart1466.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1467.html" data-page="cart1467.html"><img src="https://www.ilpalio.org/cart1467.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1468.html" data-page="cart1468.html"><img src="https://www.ilpalio.org/cart1468.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1469.html" data-page="cart1469.html"><img src="https://www.ilpalio.org/cart1469.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart147.html" data-page="cart147.html"><img src="https://www.ilpalio.org/cart147.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1470.html" data-page="cart1470.html"><img src="https://www.ilpalio.org/cart1470.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1471.html" data-page="cart1471.html"><img src="https://www.ilpalio.org/cart1471.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1472.html" data-page="cart1472.html"><img src="https://www.ilpalio.org/cart1472.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1473.html" data-page="cart1473.html"><img src="https://www.ilpalio.org/cart1473.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1474.html" data-page="cart1474.html"><img src="https://www.ilpalio.org/cart1474.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1475.html" data-page="cart1475.html"><img src="https://www.ilpalio.org/cart1475.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1476.html" data-page="cart1476.html"><img src="https://www.ilpalio.org/cart1476.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1477.html" data-page="cart1477.html"><img src="https://www.ilpalio.org/cart1477.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1478.html" data-page="cart1478.html"><img src="https://www.ilpalio.org/cart1478.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1479.html" data-page="cart1479.html"><img src="https://www.ilpalio.org/cart1479.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart148.html" data-page="cart148.html"><img src="https://www.ilpalio.org/cart148.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1480.html" data-page="cart1480.html"><img src="https://www.ilpalio.org/cart1480.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1481.html" data-page="cart1481.html"><img src="https://www.ilpalio.org/cart1481.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1482.html" data-page="cart1482.html"><img src="https://www.ilpalio.org/cart1482.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1483.html" data-page="cart1483.html"><img src="https://www.ilpalio.org/cart1483.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1484.html" data-page="cart1484.html"><img src="https://www.ilpalio.org/cart1484.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1485.html" data-page="cart1485.html"><img src="https://www.ilpalio.org/cart1485.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1486.html" data-page="cart1486.html"><img src="https://www.ilpalio.org/cart1486.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1487.html" data-page="cart1487.html"><img src="https://www.ilpalio.org/cart1487.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1488.html" data-page="cart1488.html"><img src="https://www.ilpalio.org/cart1488.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a><a class="th" href="cart1489.html" data-page="cart1489.html"><img src="https://www.ilpalio.org/cart1489.jpg" alt="Le cartoline d&#39;epoca" loading="lazy" referrerpolicy="no-referrer"><span>Le cartoline d&#39;epoca</span></a></div>
+
 
 </main>
+<div class="duomo" aria-hidden="true"></div>
 <footer class="site">
  <div class="wrap">
-  <p>Indice generato per la copia privata di lavoro dell&#39;archivio di ilpalio.org. Nessuna pubblicità, nessun fine commerciale.
-   </p>
+  <p>Indice generato per la copia privata di lavoro dell&#39;archivio di ilpalio.org. Nessuna pubblicità, nessun fine commerciale.</p>
   
   <p data-i18n="footer.derived">I dati contrassegnati come «derivato» sono calcolati o dedotti, non letti dalla fonte.</p>
+  <p class="muted"><span data-i18n="footer.nonprofit">Nessuna pubblicità, nessun fine commerciale.</span></p>
  </div>
 </footer>
+<nav class="tabbar" aria-label="Navigazione principale" data-i18n-attr="aria-label:skip.tabs">
+ <a href="../../index.html" data-i18n="nav.home">Home</a>
+ <a href="../../timeline.html" data-i18n="nav.races">Cronologia</a>
+ <a href="../../contrade/index.html" data-i18n="nav.contrade">Contrade</a>
+ <a href="../../jockeys/index.html" data-i18n="nav.jockeys">Fantini</a>
+ <a href="../../horses/index.html" data-i18n="nav.horses">Cavalli</a>
+ <a href="#q" id="tab-search" data-i18n="tab.search">Cerca</a>
+</nav>
 <script src="../../assets/i18n.js"></script>
 <script src="../../assets/app.js" defer></script>
+<script src="../../assets/gallery.js" defer></script>
 </body>
 </html>
