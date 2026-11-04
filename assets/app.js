@@ -93,6 +93,13 @@
         hits = hits.slice(0, 8); if (note) note.hidden = false;
       }
       hits.sort(function (a, b) { return a.y - b.y; });
+      window.__todayHits = hits;
+      var th = $('#todayh');
+      if (th && hits[0]) {
+        var MN = ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio', 'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre'],
+          ME = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        th.textContent = hits[0].d + ' ' + (lang === 'en' ? ME : MN)[hits[0].m - 1];
+      }
       hits.forEach(function (e) {
         var li = document.createElement('li'); var a = document.createElement(e.u ? 'a' : 'span'); if (e.u) a.href = root + e.u;
         a.textContent = e.d + '/' + e.m + '/' + e.y + (e.w ? ' - ' + e.w : ''); li.appendChild(a); today.appendChild(li);

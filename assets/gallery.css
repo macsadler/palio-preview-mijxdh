@@ -1,0 +1,20 @@
+/* Lightbox / story viewer: structural styles shared by every theme (themes restyle colours in their own stylesheet). */
+.gallery-scope img { cursor: zoom-in; }
+.lb { position: fixed; inset: 0; z-index: 60; display: none; align-items: center; justify-content: center; background: rgba(15, 15, 20, .94); touch-action: pan-y; }
+.lb.open { display: flex; }
+.lb .stage { max-width: min(94vw, 1000px); max-height: 92vh; display: flex; flex-direction: column; align-items: center; }
+.lb .frame { padding: 5px; background: #fff; border-radius: 4px; max-width: 100%; }
+.lb img { display: block; max-width: 100%; max-height: 68vh; background: #111; transition: opacity .3s ease; }
+.lb .ly { min-width: min(80vw, 32rem); padding: 3rem 2rem; text-align: center; background: #222; color: #fff; transition: opacity .3s ease; }
+.lb .ly .yy { font-size: clamp(3.4rem, 15vw, 7rem); line-height: 1; font-variant-numeric: tabular-nums; }
+.lb .ly .ww { font-size: 1.5rem; margin-top: .5rem; }
+.lb .cp { color: #fff; text-align: center; padding: .7rem .6rem 0; max-width: 40rem; }
+.lb .cp a { display: inline-block; margin: .4rem .5rem 0; padding: .6rem 1rem; min-height: 2.75rem; border: 1px solid currentColor; border-radius: 3px; color: inherit; text-decoration: none; font-weight: 600; font-size: .9rem; }
+.lb button { position: absolute; width: 3.1rem; height: 3.1rem; border-radius: 50%; border: 1px solid #fff; background: rgba(0, 0, 0, .55); color: #fff; font-size: 1.5rem; line-height: 1; cursor: pointer; padding: 0; }
+.lb .pv { left: .7rem; top: 50%; transform: translateY(-50%); }
+.lb .nx { right: .7rem; top: 50%; transform: translateY(-50%); }
+.lb .x { right: .7rem; top: .7rem; }
+.lb .dots { position: absolute; bottom: calc(.9rem + env(safe-area-inset-bottom, 0px)); left: 0; right: 0; display: flex; gap: .45rem; justify-content: center; pointer-events: none; }
+.lb .dots i { width: .55rem; height: .9rem; border: 1px solid #fff; border-radius: .3rem .3rem 0 0; }
+.lb .dots i.on { background: #fff; }
+@media (prefers-reduced-motion: reduce) { .lb img, .lb .ly { transition: none; } }

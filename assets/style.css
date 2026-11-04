@@ -7,10 +7,8 @@
   --serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
   --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
-@media (prefers-color-scheme: dark) {
-  :root { --bg: #17140f; --surface: #211d17; --ink: #efe8da; --muted: #b5ab9a; --line: #3b342a;
-          --accent: #e0643a; --accent-ink: #1a0f08; --link: #f0a27f; --mark: #4a3a12; --ok: #6cc58a; }
-}
+/* Light, warm "Campo stone" is the one default theme (Mac, Nov 2026): no automatic dark mode. Dark is reserved for header bands. */
+:root { color-scheme: light; }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 1rem/1.6 var(--sans); }
