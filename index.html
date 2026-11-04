@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="it" data-root="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home · Archivio del Palio di Siena</title>
+<meta name="color-scheme" content="light dark">
+
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Vai al contenuto</a>
+<header class="site">
+ <div class="wrap">
+  <div class="top">
+   <a class="brand" href="index.html"><span data-i18n="site.title">Archivio del Palio di Siena</span><small data-i18n="site.tagline">Prototipo privato di riscrittura di ilpalio.org</small></a>
+   <nav class="main" aria-label="Principale">
+    <ul>
+     <li><a href="index.html" aria-current="page" data-i18n="nav.home">Home</a></li><li><a href="timeline.html" data-i18n="nav.races">Cronologia</a></li><li><a href="contrade/index.html" data-i18n="nav.contrade">Contrade</a></li><li><a href="jockeys/index.html" data-i18n="nav.jockeys">Fantini</a></li><li><a href="horses/index.html" data-i18n="nav.horses">Cavalli</a></li><li><a href="stats/index.html" data-i18n="nav.stats">Statistiche</a></li><li><a href="archive/index.html" data-i18n="nav.archive">Tutte le pagine</a></li>
+    </ul>
+   </nav>
+   <div class="tools">
+    <div class="search" role="search">
+     <label class="sr" for="q" style="position:absolute;left:-999px" data-i18n="search.label">Cerca nell&#39;archivio</label>
+     <input id="q" type="search" autocomplete="off" placeholder="Cerca fantino, cavallo, contrada, anno…" data-i18n-attr="placeholder:search.placeholder" aria-controls="results">
+     <div id="results" class="results" hidden></div>
+    </div>
+    <button id="lang-toggle" type="button" lang="en">English</button>
+   </div>
+  </div>
+ </div>
+</header>
+<main id="main" class="wrap">
+
+<h1 data-i18n="site.title">Archivio del Palio di Siena</h1>
+<p class="lede">Un archivio del Palio di Siena: 761 schede complete nel campione, 757 Palii nell'elenco cronologico, 594 fantini e 1291 cavalli collegati tra loro. I contenuti sono quelli di ilpalio.org, riproposti senza inventare dati.</p>
+<section class="card" aria-labelledby="today-h">
+ <h2 id="today-h" style="margin-top:0;border:0" data-i18n="today.title">Oggi nella storia del Palio</h2>
+ <p id="today-note" class="muted" hidden data-i18n="today.none">Nessun Palio corso in questa data. Le date più vicine:</p>
+ <ul id="today-list"><li class="muted" data-i18n="today.loading">Caricamento…</li></ul>
+</section>
+<h2 data-i18n="contrade.title">Le Contrade e le loro vittorie</h2>
+<svg class="chart" viewBox="0 0 732 416" role="img" aria-labelledby="ct cd"><title id="ct">Vittorie per Contrada</title><desc id="cd">Numero di vittorie per Contrada derivato dall&#x27;elenco vittorie.htm</desc><text x="104" y="19" text-anchor="end">Oca</text><rect class="bar" x="112" y="7" width="560.0" height="16" rx="3"/><text x="678.0" y="19">67</text><text x="104" y="43" text-anchor="end">Tartuca</text><rect class="bar" x="112" y="31" width="417.9" height="16" rx="3"/><text x="535.9" y="43">50</text><text x="104" y="67" text-anchor="end">Chiocciola</text><rect class="bar" x="112" y="55" width="409.6" height="16" rx="3"/><text x="527.6" y="67">49</text><text x="104" y="91" text-anchor="end">Onda</text><rect class="bar" x="112" y="79" width="401.2" height="16" rx="3"/><text x="519.2" y="91">48</text><text x="104" y="115" text-anchor="end">Nicchio</text><rect class="bar" x="112" y="103" width="392.8" height="16" rx="3"/><text x="510.8" y="115">47</text><text x="104" y="139" text-anchor="end">Torre</text><rect class="bar" x="112" y="127" width="376.1" height="16" rx="3"/><text x="494.1" y="139">45</text><text x="104" y="163" text-anchor="end">Valdimontone</text><rect class="bar" x="112" y="151" width="376.1" height="16" rx="3"/><text x="494.1" y="163">45</text><text x="104" y="187" text-anchor="end">Selva</text><rect class="bar" x="112" y="175" width="351.0" height="16" rx="3"/><text x="469.0" y="187">42</text><text x="104" y="211" text-anchor="end">Drago</text><rect class="bar" x="112" y="199" width="334.3" height="16" rx="3"/><text x="452.3" y="211">40</text><text x="104" y="235" text-anchor="end">Istrice</text><rect class="bar" x="112" y="223" width="334.3" height="16" rx="3"/><text x="452.3" y="235">40</text><text x="104" y="259" text-anchor="end">Lupa</text><rect class="bar" x="112" y="247" width="334.3" height="16" rx="3"/><text x="452.3" y="259">40</text><text x="104" y="283" text-anchor="end">Bruco</text><rect class="bar" x="112" y="271" width="300.9" height="16" rx="3"/><text x="418.9" y="283">36</text><text x="104" y="307" text-anchor="end">Giraffa</text><rect class="bar" x="112" y="295" width="300.9" height="16" rx="3"/><text x="418.9" y="307">36</text><text x="104" y="331" text-anchor="end">Civetta</text><rect class="bar" x="112" y="319" width="284.2" height="16" rx="3"/><text x="402.2" y="331">34</text><text x="104" y="355" text-anchor="end">Leocorno</text><rect class="bar" x="112" y="343" width="275.8" height="16" rx="3"/><text x="393.8" y="355">33</text><text x="104" y="379" text-anchor="end">Aquila</text><rect class="bar" x="112" y="367" width="217.3" height="16" rx="3"/><text x="335.3" y="379">26</text><text x="104" y="403" text-anchor="end">Pantera</text><rect class="bar" x="112" y="391" width="209.0" height="16" rx="3"/><text x="327.0" y="403">25</text></svg><details><summary data-i18n="stats.table">Tabella dei dati</summary><div class="table-wrap"><table><tbody><tr><th scope='row'>Oca</th><td>67</td></tr><tr><th scope='row'>Tartuca</th><td>50</td></tr><tr><th scope='row'>Chiocciola</th><td>49</td></tr><tr><th scope='row'>Onda</th><td>48</td></tr><tr><th scope='row'>Nicchio</th><td>47</td></tr><tr><th scope='row'>Torre</th><td>45</td></tr><tr><th scope='row'>Valdimontone</th><td>45</td></tr><tr><th scope='row'>Selva</th><td>42</td></tr><tr><th scope='row'>Drago</th><td>40</td></tr><tr><th scope='row'>Istrice</th><td>40</td></tr><tr><th scope='row'>Lupa</th><td>40</td></tr><tr><th scope='row'>Bruco</th><td>36</td></tr><tr><th scope='row'>Giraffa</th><td>36</td></tr><tr><th scope='row'>Civetta</th><td>34</td></tr><tr><th scope='row'>Leocorno</th><td>33</td></tr><tr><th scope='row'>Aquila</th><td>26</td></tr><tr><th scope='row'>Pantera</th><td>25</td></tr></tbody></table></div></details>
+<h2 data-i18n="nav.races">Cronologia</h2>
+<ul><li><a href="races/1633-15-8.html">15 agosto 1633 — Tartuca</a></li><li><a href="races/1793-2-7.html">2 luglio 1793 — Istrice</a></li><li><a href="races/1920-17-8.html">17 agosto 1920 — Leocorno</a></li><li><a href="races/2026-16-8.html">18 agosto 2026 — Nicchio</a></li></ul>
+
+</main>
+<footer class="site">
+ <div class="wrap">
+  <p><span data-i18n="footer.license" data-author="Orlando Papei">Contenuti di ilpalio.org (Orlando Papei), licenza CC BY-NC</span>
+   · <a href="https://www.ilpalio.org/" rel="noopener" data-i18n="footer.original">Vedi pagina originale</a> (<a href="https://www.ilpalio.org/" rel="noopener">https://www.ilpalio.org/</a>)</p>
+  <p data-i18n="footer.derived">I dati contrassegnati come «derivato» sono calcolati o dedotti, non letti dalla fonte.</p>
+ </div>
+</footer>
+<script src="assets/i18n.js"></script>
+<script src="assets/app.js" defer></script>
+</body>
+</html>
