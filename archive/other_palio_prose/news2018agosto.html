@@ -1,35 +1,44 @@
 <!doctype html>
-<html lang="it" data-root="../../">
+<html lang="it" data-root="../../" data-theme="siena">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Tutte le News sul Palio di Siena del 16 agosto 2018 · Archivio del Palio di Siena</title>
-<meta name="color-scheme" content="light dark">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#0F1530">
 
 <meta name="robots" content="noindex,nofollow">
 <link rel="icon" href="data:,">
 <link rel="stylesheet" href="../../assets/style.css">
+<link rel="stylesheet" href="../../assets/gallery.css">
+<link rel="stylesheet" href="../../assets/siena.css">
 </head>
-<body>
+<body class="theme-siena">
 <a class="skip" href="#main" data-i18n="skip">Vai al contenuto</a>
+<div class="duomo" aria-hidden="true"></div>
 <header class="site">
  <div class="wrap">
-  <div class="top">
-   <a class="brand" href="../../index.html"><span data-i18n="site.title">Archivio del Palio di Siena</span><small data-i18n="site.tagline">Prototipo privato di riscrittura di ilpalio.org</small></a>
+  <div class="bar1">
+   <a class="brand" href="../../index.html">
+    <svg class="balz" viewBox="0 0 40 46" aria-hidden="true"><path d="M3 3h34v22c0 10-8 16-17 19C11 41 3 35 3 25z" fill="#1A1A1A"/><path d="M3 3h34v21H3z" fill="#FFFFFF"/><path d="M3 3h34v22c0 10-8 16-17 19C11 41 3 35 3 25z" fill="none" stroke="#C9A227" stroke-width="2"/></svg>
+    <span><b data-i18n="site.title">Archivio del Palio di Siena</b><small data-i18n="site.tagline">Prototipo privato di riscrittura di ilpalio.org</small></span>
+   </a>
    <nav class="main" aria-label="Principale">
     <ul>
-     <li><a href="../../index.html" data-i18n="nav.home">Home</a></li><li><a href="../../timeline.html" data-i18n="nav.races">Cronologia</a></li><li><a href="../../contrade/index.html" data-i18n="nav.contrade">Contrade</a></li><li><a href="../../jockeys/index.html" data-i18n="nav.jockeys">Fantini</a></li><li><a href="../../horses/index.html" data-i18n="nav.horses">Cavalli</a></li><li><a href="../../stats/index.html" data-i18n="nav.stats">Statistiche</a></li><li><a href="../../archive/index.html" aria-current="page" data-i18n="nav.archive">Tutte le pagine</a></li>
+     <li><a href="../../index.html" data-i18n="nav.home">Home</a></li><li><a href="../../timeline.html" data-i18n="nav.races">Cronologia</a></li><li><a href="../../contrade/index.html" data-i18n="nav.contrade">Contrade</a></li><li><a href="../../jockeys/index.html" data-i18n="nav.jockeys">Fantini</a></li><li><a href="../../horses/index.html" data-i18n="nav.horses">Cavalli</a></li><li><a href="../../stats/index.html" data-i18n="nav.stats">Statistiche</a></li><li><a href="../../rivalries.html" data-i18n="nav.rivalries">Amiche e rivali</a></li><li><a href="../../archive/index.html" aria-current="page" data-i18n="nav.archive">Tutte le pagine</a></li>
     </ul>
    </nav>
-   <div class="tools">
-    <div class="search" role="search">
-     <label class="sr" for="q" style="position:absolute;left:-999px" data-i18n="search.label">Cerca nell&#39;archivio</label>
-     <input id="q" type="search" autocomplete="off" placeholder="Cerca fantino, cavallo, contrada, anno…" data-i18n-attr="placeholder:search.placeholder" aria-controls="results">
-     <div id="results" class="results" hidden></div>
-    </div>
-    <button id="lang-toggle" type="button" lang="en">English</button>
+   <button id="lang-toggle" type="button" lang="en">English</button>
+  </div>
+  
+  <div class="searchrow">
+   <div class="search" role="search">
+    <label class="sr" for="q" data-i18n="search.label">Cerca nell&#39;archivio</label>
+    <input id="q" type="search" autocomplete="off" placeholder="Cerca fantino, cavallo, contrada, anno…" data-i18n-attr="placeholder:search.placeholder" aria-controls="results">
+    <div id="results" class="results" hidden></div>
    </div>
   </div>
+  
  </div>
 </header>
 <main id="main" class="wrap">
@@ -41,7 +50,7 @@
 
 
 <section class="card muted" role="note"><p>L'originale usa i frame. Contenuti collegati:</p><ul><li>https://flowplayer.org/e/?t=Radio%20Siena%20Tv%20-%20%26nbsp%3BLa%20Voce%20della%20Citt%C3%A0%20%7C%26nbsp%3BSiena%20Notizie%20Magazine%20e%20Tv&amp;c=eyJkZWJ1ZyI6ZmFsc2UsImRpc2FibGVkIjpmYWxzZSwiZnVsbHNjcmVlbiI6dHJ1ZSwia2V5Ym9hcmQiOnRydWUsInJhdGlvIjowLjU2MjUsImFkYXB0aXZlUmF0aW8iOmZhbHNlLCJydG1wIjowLCJwcm94eSI6ImJlc3QiLCJobHNRdWFsaXRpZXMiOnRydWUsInNwbGFzaCI6ZmFsc2UsImxpdmUiOnRydWUsImxpdmVQb3NpdGlvbk9mZnNldCI6MTIwLCJzd2YiOiIvL3JlbGVhc2VzLmZsb3dwbGF5ZXIub3JnLzcuMC40L2Zsb3dwbGF5ZXIuc3dmIiwic3dmSGxzIjoiLy9yZWxlYXNlcy5mbG93cGxheWVyLm9yZy83LjAuNC9mbG93cGxheWVyaGxzLnN3ZiIsInNwZWVkcyI6WzAuMjUsMC41LDEsMS41LDJdLCJ0b29sdGlwIjp0cnVlLCJtb3VzZW91dFRpbWVvdXQiOjUwMDAsInZvbHVtZSI6MSwiZXJyb3JzIjpbIiIsIlZpZGVvIGxvYWRpbmcgYWJvcnRlZCIsIk5ldHdvcmsgZXJyb3IiLCJWaWRlbyBub3QgcHJvcGVybHkgZW5jb2RlZCIsIlZpZGVvIGZpbGUgbm90IGZvdW5kIiwiVW5zdXBwb3J0ZWQgdmlkZW8iLCJTa2luIG5vdCBmb3VuZCIsIlNXRiBmaWxlIG5vdCBmb3VuZCIsIlN1YnRpdGxlcyBub3QgZm91bmQiLCJJbnZhbGlkIFJUTVAgVVJMIiwiVW5zdXBwb3J0ZWQgdmlkZW8gZm9ybWF0LiBUcnkgaW5zdGFsbGluZyBBZG9iZSBGbGFzaC4iXSwiZXJyb3JVcmxzIjpbIiIsIiIsIiIsIiIsIiIsIiIsIiIsIiIsIiIsIiIsImh0dHA6Ly9nZXQuYWRvYmUuY29tL2ZsYXNocGxheWVyLyJdLCJwbGF5bGlzdCI6W10sImhsc0ZpeCI6ZmFsc2UsImRpc2FibGVJbmxpbmUiOmZhbHNlLCJhdXRvcGxheSI6dHJ1ZSwiY2xpcCI6eyJzb3VyY2VzIjpbeyJ0eXBlIjoiYXBwbGljYXRpb24veC1tcGVndXJsIiwic3JjIjoiaHR0cHM6Ly81OTI2ZmM5YzdjNWIyLnN0cmVhbWxvY2submV0LzkwMTgvOTAxOC9wbGF5bGlzdC5tM3U4In0seyJ0eXBlIjoiYXBwbGljYXRpb24vZmxhc2giLCJzcmMiOiJydG1wOi8vNTkyNmZjOWM3YzViMi5zdHJlYW1sb2NrLm5ldDo0NDMvOTAxOC85MDE4In1dfSwiY29uZiI6eyJhc3BlY3RSYXRpbyI6IjE2OjkiLCJzcGxhc2giOnRydWV9LCJkdnIiOmZhbHNlLCJob3N0bmFtZSI6Ind3dy5yYWRpb3NpZW5hdHYuaXQiLCJvcmlnaW4iOiJodHRwOi8vd3d3LnJhZGlvc2llbmF0di5pdC8iLCJqcyI6W10sImNzcyI6W119&amp;r=http%3A%2F%2Fwww.radiosienatv.it%2F</li><li>https://docs.google.com/forms/d/e/1FAIpQLSdNh_yMHuRiyQLMESayFKRSO-4XtIgYYaLVlo6G9GjVEyfboA/viewform?embedded=true</li></ul></section>
-<section class="prose"><div class="table-wrap" tabindex="0"><table border="0" height="50" width="90%">
+<section class="prose gallery-scope "><div class="table-wrap" tabindex="0"><table border="0" height="50" width="90%">
 <tr>
 </tr></table></div><div class="table-wrap" tabindex="0"><table border="0" width="80%">
 <tr>
@@ -58,7 +67,7 @@ Le notizie sul Palio di Siena, a cura di <a href="../../archive/other_palio_pros
 <p></p><img alt="" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/abc1.gif"/><br/><br/>
 <b></b><b>
 LO STREAMING ONLINE, A CURA DI RADIO SIENA TV</b><br/><br/>
-<a href="https://www.radiosienatv.it/" rel="noopener noreferrer nofollow"><img alt="Radio Siena TV" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/sienatv.gif" title="Logo di Radio Siena TV" width="150"/></a>
+<img alt="Radio Siena TV" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/sienatv.gif" title="Logo di Radio Siena TV" width="150"/>
 <br/><br/>
 <div><div></div></div>
 
@@ -121,7 +130,7 @@ IL NS. SONDAGGIO SU TWITTER SUL PALIO STRAORDINARIO
 
 <br/><br/>
 </p>
-<blockquote><p>Siete favorevoli all'effettuazione di un Palio Straordinario per commemorare il centenario della Grande Guerra?</p>— Il Palio di Siena (@paliodisiena) <a href="https://twitter.com/paliodisiena/status/1035807820573229056?ref_src=twsrc%5Etfw" rel="noopener noreferrer nofollow">1 settembre 2018</a></blockquote>
+<blockquote><p>Siete favorevoli all'effettuazione di un Palio Straordinario per commemorare il centenario della Grande Guerra?</p>— Il Palio di Siena (@paliodisiena) 1 settembre 2018</blockquote>
 
 
 <br/><br/>
@@ -246,7 +255,7 @@ ARRESTATO A TRIESTE LUCIANO TARLAO DETTO IL POLACCO</b><br/><br/>Non corse mai i
 <a href="../../archive/jockey_batteries/fantini-solo-prove-nz.html"><img alt="" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/PER_SAPERNE_DI_PIU2.GIF"/></a><br/><br/>
 
 <img alt="" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/tarlaoomicidio.jpg"/><br/><br/>
-<a href="http://ilpiccolo.gelocal.it/trieste/cronaca/2018/08/15/news/delitto-a-grettam-c-e-un-fermo-di-indiziato-1.17156718" rel="noopener noreferrer nofollow"><img alt="" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/PER_SAPERNE_DI_PIU2.GIF"/></a><br/><br/>
+<img alt="" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/PER_SAPERNE_DI_PIU2.GIF"/><br/><br/>
 <p></p><img alt="" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/abc1.gif"/><br/><br/>
 <b></b><b>
 
@@ -291,7 +300,7 @@ ESPOSTA LA BANDIERA VERDE A PALAZZO PUBBLICO - ANNULLATA LA SECONDA PROVA
 A causa della pioggia, la seconda Prova del Palio è stata annullata. Anche la Terza Prova di stasera è a forte rischio meteo, ma per ora l'ufficialità è arrivata solo per la Seconda Prova. Per la Terza Prova vi aggiorneremo a tempo debito.
 Per vedere le previsioni meteo di Siena, cliccate qua sotto<br/><br/>
 
-<a href="http://www.lamma.rete.toscana.it/meteo/meteo-siena" rel="noopener noreferrer nofollow"><img alt="Le previsioni del tempo del LAMMA" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/lammatoscanamedio.jpg" title="Le previsioni del tempo del LAMMA" width="450"/><br/>METEO SIENA</a>
+<img alt="Le previsioni del tempo del LAMMA" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/lammatoscanamedio.jpg" title="Le previsioni del tempo del LAMMA" width="450"/><br/>METEO SIENA
 
 <p></p>
 <br/><br/>
@@ -784,26 +793,36 @@ Fabio Magni è stato confermato dai Capitani delle Contrade partecipanti al Pali
 
 
 SEGUITECI SU <br/><br/>
-<a href="https://twitter.com/paliodisiena" rel="noopener noreferrer nofollow"><img alt="" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/logotwitter_piccolo.jpg"/></a>       
+<img alt="" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/logotwitter_piccolo.jpg"/>       
 
 ▶ <a class="video-link" href="https://www.ilpalio.org/news2018agosto.htm" rel="noopener nofollow"><img alt="" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/LogoYT_piccolo.jpg"/></a>       
 
-<a href="https://instagram.com/paliodisiena" rel="noopener noreferrer nofollow"><img alt="" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/logoinstagram_piccolo.jpg"/></a>       
+<img alt="" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/logoinstagram_piccolo.jpg"/>       
 
-<a href="https://t.me/paliodisiena" rel="noopener noreferrer nofollow"><img alt="" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/telegram.png"/></a><br/><br/>
+<img alt="" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/telegram.png"/><br/><br/>
 </b></div></b></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></td></tr></table></div><div class="table-wrap" tabindex="0"><table></table></div><br/></section>
 <p class="muted small">File originale: <code>news2018agosto.htm</code></p>
 
 </main>
+<div class="duomo" aria-hidden="true"></div>
 <footer class="site">
  <div class="wrap">
-  <p>Contenuti di ilpalio.org (Orlando Papei). Copia privata di lavoro: la licenza non è dichiarata su questa pagina (solo index.htm dichiara CC BY-NC), verificare prima di ripubblicare. Nessuna pubblicità, nessun fine commerciale.
-   · <a href="https://www.ilpalio.org/news2018agosto.htm" rel="noopener">Vedi pagina originale</a></p>
+  <p>Contenuti di ilpalio.org (Orlando Papei). Copia privata di lavoro: la licenza non è dichiarata su questa pagina (solo index.htm dichiara CC BY-NC), verificare prima di ripubblicare. Nessuna pubblicità, nessun fine commerciale. · <a href="https://www.ilpalio.org/news2018agosto.htm" rel="noopener" data-i18n="footer.original">Vedi pagina originale</a></p>
   
   <p data-i18n="footer.derived">I dati contrassegnati come «derivato» sono calcolati o dedotti, non letti dalla fonte.</p>
+  <p class="muted"><span data-i18n="footer.nonprofit">Nessuna pubblicità, nessun fine commerciale.</span></p>
  </div>
 </footer>
+<nav class="tabbar" aria-label="Navigazione principale" data-i18n-attr="aria-label:skip.tabs">
+ <a href="../../index.html" data-i18n="nav.home">Home</a>
+ <a href="../../timeline.html" data-i18n="nav.races">Cronologia</a>
+ <a href="../../contrade/index.html" data-i18n="nav.contrade">Contrade</a>
+ <a href="../../jockeys/index.html" data-i18n="nav.jockeys">Fantini</a>
+ <a href="../../horses/index.html" data-i18n="nav.horses">Cavalli</a>
+ <a href="#q" id="tab-search" data-i18n="tab.search">Cerca</a>
+</nav>
 <script src="../../assets/i18n.js"></script>
 <script src="../../assets/app.js" defer></script>
+<script src="../../assets/gallery.js" defer></script>
 </body>
 </html>

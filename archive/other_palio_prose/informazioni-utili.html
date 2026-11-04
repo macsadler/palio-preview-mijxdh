@@ -1,35 +1,44 @@
 <!doctype html>
-<html lang="it" data-root="../../">
+<html lang="it" data-root="../../" data-theme="siena">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Informazioni utili per arrivare a Siena in occasione del Palio di Siena · Archivio del Palio di Siena</title>
-<meta name="color-scheme" content="light dark">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#0F1530">
 
 <meta name="robots" content="noindex,nofollow">
 <link rel="icon" href="data:,">
 <link rel="stylesheet" href="../../assets/style.css">
+<link rel="stylesheet" href="../../assets/gallery.css">
+<link rel="stylesheet" href="../../assets/siena.css">
 </head>
-<body>
+<body class="theme-siena">
 <a class="skip" href="#main" data-i18n="skip">Vai al contenuto</a>
+<div class="duomo" aria-hidden="true"></div>
 <header class="site">
  <div class="wrap">
-  <div class="top">
-   <a class="brand" href="../../index.html"><span data-i18n="site.title">Archivio del Palio di Siena</span><small data-i18n="site.tagline">Prototipo privato di riscrittura di ilpalio.org</small></a>
+  <div class="bar1">
+   <a class="brand" href="../../index.html">
+    <svg class="balz" viewBox="0 0 40 46" aria-hidden="true"><path d="M3 3h34v22c0 10-8 16-17 19C11 41 3 35 3 25z" fill="#1A1A1A"/><path d="M3 3h34v21H3z" fill="#FFFFFF"/><path d="M3 3h34v22c0 10-8 16-17 19C11 41 3 35 3 25z" fill="none" stroke="#C9A227" stroke-width="2"/></svg>
+    <span><b data-i18n="site.title">Archivio del Palio di Siena</b><small data-i18n="site.tagline">Prototipo privato di riscrittura di ilpalio.org</small></span>
+   </a>
    <nav class="main" aria-label="Principale">
     <ul>
-     <li><a href="../../index.html" data-i18n="nav.home">Home</a></li><li><a href="../../timeline.html" data-i18n="nav.races">Cronologia</a></li><li><a href="../../contrade/index.html" data-i18n="nav.contrade">Contrade</a></li><li><a href="../../jockeys/index.html" data-i18n="nav.jockeys">Fantini</a></li><li><a href="../../horses/index.html" data-i18n="nav.horses">Cavalli</a></li><li><a href="../../stats/index.html" data-i18n="nav.stats">Statistiche</a></li><li><a href="../../archive/index.html" aria-current="page" data-i18n="nav.archive">Tutte le pagine</a></li>
+     <li><a href="../../index.html" data-i18n="nav.home">Home</a></li><li><a href="../../timeline.html" data-i18n="nav.races">Cronologia</a></li><li><a href="../../contrade/index.html" data-i18n="nav.contrade">Contrade</a></li><li><a href="../../jockeys/index.html" data-i18n="nav.jockeys">Fantini</a></li><li><a href="../../horses/index.html" data-i18n="nav.horses">Cavalli</a></li><li><a href="../../stats/index.html" data-i18n="nav.stats">Statistiche</a></li><li><a href="../../rivalries.html" data-i18n="nav.rivalries">Amiche e rivali</a></li><li><a href="../../archive/index.html" aria-current="page" data-i18n="nav.archive">Tutte le pagine</a></li>
     </ul>
    </nav>
-   <div class="tools">
-    <div class="search" role="search">
-     <label class="sr" for="q" style="position:absolute;left:-999px" data-i18n="search.label">Cerca nell&#39;archivio</label>
-     <input id="q" type="search" autocomplete="off" placeholder="Cerca fantino, cavallo, contrada, anno…" data-i18n-attr="placeholder:search.placeholder" aria-controls="results">
-     <div id="results" class="results" hidden></div>
-    </div>
-    <button id="lang-toggle" type="button" lang="en">English</button>
+   <button id="lang-toggle" type="button" lang="en">English</button>
+  </div>
+  
+  <div class="searchrow">
+   <div class="search" role="search">
+    <label class="sr" for="q" data-i18n="search.label">Cerca nell&#39;archivio</label>
+    <input id="q" type="search" autocomplete="off" placeholder="Cerca fantino, cavallo, contrada, anno…" data-i18n-attr="placeholder:search.placeholder" aria-controls="results">
+    <div id="results" class="results" hidden></div>
    </div>
   </div>
+  
  </div>
 </header>
 <main id="main" class="wrap">
@@ -41,7 +50,7 @@
 
 
 
-<section class="prose"><a href="../../index.html">
+<section class="prose gallery-scope "><a href="../../index.html">
 <img align="left" alt="www.ilpalio.org" border="0" height="100" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/banner-paliosiena.jpg" title="Il Palio di Siena" width="100"/><img align="left" alt="www.ilpalio.org" border="0" height="100" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/3righe.gif" title="Il Palio di Siena" width="100"/></a>
 <br/><br/>
 
@@ -66,28 +75,28 @@
 <br/>
 <br/>
 <b>COME ARRIVARE A SIENA CON I MEZZI PUBBLICI</b> <br/>
-<a href="http://www.tiemmespa.it/" rel="noopener noreferrer nofollow">CON L'AUTOBUS DA FIRENZE</a><br/>
-<a href="http://www.sena.it" rel="noopener noreferrer nofollow">CON L'AUTOBUS DA ROMA</a><br/>
-<a href="http://www.flixbus.it/" rel="noopener noreferrer nofollow">CON GLI AUTOBUS DI FLIXBUS</a><br/>
-<a href="https://www.omio.it/viaggi/siena" rel="noopener noreferrer nofollow">ATTRAVERSO LA PIATTAFORMA OMIO</a><br/>
-<a href="http://www.trenitalia.it" rel="noopener noreferrer nofollow">CON IL TRENO</a><br/>
+CON L'AUTOBUS DA FIRENZE<br/>
+CON L'AUTOBUS DA ROMA<br/>
+CON GLI AUTOBUS DI FLIXBUS<br/>
+ATTRAVERSO LA PIATTAFORMA OMIO<br/>
+CON IL TRENO<br/>
 <a href="http://scioperi.mit.gov.it/mit2/public/scioperi" rel="noopener noreferrer nofollow">GLI SCIOPERI PREVISTI</a><br/><br/>
 <div align="left">
 Se arrivate a Siena con la vostra auto si ricorda che agli ingressi della zona pedonale sono installate delle telecamere che sono in grado di
 individuare la targa dei veicoli che vi entrano senza permesso.<br/><br/>
 
-<a href="https://www.sienaparcheggi.com/it/1089/Sconti-per-il-parcheggio-auto-ai-turisti-che-pernottano-a-Siena.htm" rel="noopener noreferrer nofollow"><b> I PARCHEGGI DI SIENA</b></a><b><br/><br/><b>
+<b> I PARCHEGGI DI SIENA</b><b><br/><br/><b>
 
 
 - LA WEBCAM SU PIAZZA DEL CAMPO - CLICCARE SULL'IMMAGINE - <br/><br/></b>
 <img alt="" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/arrow77.gif"/><br/><br/>
-<a href="https://www.skylinewebcams.com/it/webcam/italia/toscana/siena/siena.html" rel="noopener noreferrer nofollow"><img alt="La webcam online in diretta con le immagini di Piazza del Campo" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/webcam-piazza.jpg"/></a><br/><br/>VIGILI URBANI</b><br/><br/>
+<img alt="La webcam online in diretta con le immagini di Piazza del Campo" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/webcam-piazza.jpg"/><br/><br/>VIGILI URBANI</b><br/><br/>
 0577-2922<br/><br/>
 <img alt="" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/mappa45.gif"/><br/><br/>
 
 <b>MEZZI PUBBLICI</b><br/><p align="center">
 TELEFONO RADIO-TAXI<br/>
-<a href="http://www.tiemmespa.it/" rel="noopener noreferrer nofollow">AUTOBUS URBANI</a><br/><br/>
+AUTOBUS URBANI<br/><br/>
 <b>MAPPE</b><br/>
 </p><p align="center">
 <a href="https://www.ilpalio.org/mappa_siena_city.jpg" rel="noopener">MAPPA DETTAGLIATA DEL CENTRO CITTA' 1500x1975</a><br/>
@@ -97,7 +106,7 @@ TELEFONO RADIO-TAXI<br/>
 <a href="https://www.ilpalio.org/carta_provincia_siena_large.jpg" rel="noopener">MAPPA DELLA PROVINCIA 1350x985</a><br/>
 <a href="https://www.ilpalio.org/provincia_siena.gif" rel="noopener">I TERRITORI DELLA PROVINCIA</a><br/>
 <a href="https://www.ilpalio.org/carta_provincia_siena.jpg" rel="noopener">MAPPA DELLA PROVINCIA 750x547</a><br/>
-<a href="https://www.viamichelin.it/web/Itinerari" rel="noopener noreferrer nofollow"> CALCOLA LA DISTANZA DALLA TUA CITTA'</a><br/>
+ CALCOLA LA DISTANZA DALLA TUA CITTA'<br/>
 <a href="https://www.ilpalio.org/accesso.gif" rel="noopener">PIANTA DEI PALCHI DI PIAZZA DEL CAMPO</a><br/><br/>
 <b>PREVISIONI DEL TEMPO</b><br/><br/>
 <a href="../../archive/weather/meteosiena.html">IL TEMPO A SIENA</a><br/>
@@ -128,15 +137,25 @@ TELEFONO RADIO-TAXI<br/>
 <p class="muted small">File originale: <code>informazioni_utili.htm</code></p>
 
 </main>
+<div class="duomo" aria-hidden="true"></div>
 <footer class="site">
  <div class="wrap">
-  <p>Contenuti di ilpalio.org (Orlando Papei e Fabrizio Gabrielli). Copia privata di lavoro: la licenza non è dichiarata su questa pagina (solo index.htm dichiara CC BY-NC), verificare prima di ripubblicare. Nessuna pubblicità, nessun fine commerciale.
-   · <a href="https://www.ilpalio.org/informazioni_utili.htm" rel="noopener">Vedi pagina originale</a></p>
+  <p>Contenuti di ilpalio.org (Orlando Papei e Fabrizio Gabrielli). Copia privata di lavoro: la licenza non è dichiarata su questa pagina (solo index.htm dichiara CC BY-NC), verificare prima di ripubblicare. Nessuna pubblicità, nessun fine commerciale. · <a href="https://www.ilpalio.org/informazioni_utili.htm" rel="noopener" data-i18n="footer.original">Vedi pagina originale</a></p>
   
   <p data-i18n="footer.derived">I dati contrassegnati come «derivato» sono calcolati o dedotti, non letti dalla fonte.</p>
+  <p class="muted"><span data-i18n="footer.nonprofit">Nessuna pubblicità, nessun fine commerciale.</span></p>
  </div>
 </footer>
+<nav class="tabbar" aria-label="Navigazione principale" data-i18n-attr="aria-label:skip.tabs">
+ <a href="../../index.html" data-i18n="nav.home">Home</a>
+ <a href="../../timeline.html" data-i18n="nav.races">Cronologia</a>
+ <a href="../../contrade/index.html" data-i18n="nav.contrade">Contrade</a>
+ <a href="../../jockeys/index.html" data-i18n="nav.jockeys">Fantini</a>
+ <a href="../../horses/index.html" data-i18n="nav.horses">Cavalli</a>
+ <a href="#q" id="tab-search" data-i18n="tab.search">Cerca</a>
+</nav>
 <script src="../../assets/i18n.js"></script>
 <script src="../../assets/app.js" defer></script>
+<script src="../../assets/gallery.js" defer></script>
 </body>
 </html>

@@ -1,35 +1,44 @@
 <!doctype html>
-<html lang="it" data-root="../../">
+<html lang="it" data-root="../../" data-theme="siena">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Palio di Siena - News · Archivio del Palio di Siena</title>
-<meta name="color-scheme" content="light dark">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#0F1530">
 
 <meta name="robots" content="noindex,nofollow">
 <link rel="icon" href="data:,">
 <link rel="stylesheet" href="../../assets/style.css">
+<link rel="stylesheet" href="../../assets/gallery.css">
+<link rel="stylesheet" href="../../assets/siena.css">
 </head>
-<body>
+<body class="theme-siena">
 <a class="skip" href="#main" data-i18n="skip">Vai al contenuto</a>
+<div class="duomo" aria-hidden="true"></div>
 <header class="site">
  <div class="wrap">
-  <div class="top">
-   <a class="brand" href="../../index.html"><span data-i18n="site.title">Archivio del Palio di Siena</span><small data-i18n="site.tagline">Prototipo privato di riscrittura di ilpalio.org</small></a>
+  <div class="bar1">
+   <a class="brand" href="../../index.html">
+    <svg class="balz" viewBox="0 0 40 46" aria-hidden="true"><path d="M3 3h34v22c0 10-8 16-17 19C11 41 3 35 3 25z" fill="#1A1A1A"/><path d="M3 3h34v21H3z" fill="#FFFFFF"/><path d="M3 3h34v22c0 10-8 16-17 19C11 41 3 35 3 25z" fill="none" stroke="#C9A227" stroke-width="2"/></svg>
+    <span><b data-i18n="site.title">Archivio del Palio di Siena</b><small data-i18n="site.tagline">Prototipo privato di riscrittura di ilpalio.org</small></span>
+   </a>
    <nav class="main" aria-label="Principale">
     <ul>
-     <li><a href="../../index.html" data-i18n="nav.home">Home</a></li><li><a href="../../timeline.html" data-i18n="nav.races">Cronologia</a></li><li><a href="../../contrade/index.html" data-i18n="nav.contrade">Contrade</a></li><li><a href="../../jockeys/index.html" data-i18n="nav.jockeys">Fantini</a></li><li><a href="../../horses/index.html" data-i18n="nav.horses">Cavalli</a></li><li><a href="../../stats/index.html" data-i18n="nav.stats">Statistiche</a></li><li><a href="../../archive/index.html" aria-current="page" data-i18n="nav.archive">Tutte le pagine</a></li>
+     <li><a href="../../index.html" data-i18n="nav.home">Home</a></li><li><a href="../../timeline.html" data-i18n="nav.races">Cronologia</a></li><li><a href="../../contrade/index.html" data-i18n="nav.contrade">Contrade</a></li><li><a href="../../jockeys/index.html" data-i18n="nav.jockeys">Fantini</a></li><li><a href="../../horses/index.html" data-i18n="nav.horses">Cavalli</a></li><li><a href="../../stats/index.html" data-i18n="nav.stats">Statistiche</a></li><li><a href="../../rivalries.html" data-i18n="nav.rivalries">Amiche e rivali</a></li><li><a href="../../archive/index.html" aria-current="page" data-i18n="nav.archive">Tutte le pagine</a></li>
     </ul>
    </nav>
-   <div class="tools">
-    <div class="search" role="search">
-     <label class="sr" for="q" style="position:absolute;left:-999px" data-i18n="search.label">Cerca nell&#39;archivio</label>
-     <input id="q" type="search" autocomplete="off" placeholder="Cerca fantino, cavallo, contrada, anno…" data-i18n-attr="placeholder:search.placeholder" aria-controls="results">
-     <div id="results" class="results" hidden></div>
-    </div>
-    <button id="lang-toggle" type="button" lang="en">English</button>
+   <button id="lang-toggle" type="button" lang="en">English</button>
+  </div>
+  
+  <div class="searchrow">
+   <div class="search" role="search">
+    <label class="sr" for="q" data-i18n="search.label">Cerca nell&#39;archivio</label>
+    <input id="q" type="search" autocomplete="off" placeholder="Cerca fantino, cavallo, contrada, anno…" data-i18n-attr="placeholder:search.placeholder" aria-controls="results">
+    <div id="results" class="results" hidden></div>
    </div>
   </div>
+  
  </div>
 </header>
 <main id="main" class="wrap">
@@ -41,7 +50,7 @@
 
 
 
-<section class="prose"><a href="../../index.html">
+<section class="prose gallery-scope "><a href="../../index.html">
 <img align="left" alt="www.ilpalio.org" border="0" height="100" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/banner-paliosiena.jpg" title="Il Palio di Siena" width="100"/><img align="left" alt="www.ilpalio.org" border="0" height="100" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/3righe.gif" title="Il Palio di Siena" width="100"/></a>
 <br/><br/>
 
@@ -58,7 +67,7 @@
 <table align="center" border="0" width="80%">
 <tr>
 <td align="right"><a href="../../archive/video_pages/assunta09.html"><img alt="Cliccate qui per vedere il video della carriera del 2 luglio 2009" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/film.gif"/></a></td>
-<td align="right"><a href="http://www.sienafree.it" rel="noopener noreferrer nofollow"><img alt="" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/sienafreeit.gif"/></a></td>
+<td align="right"><img alt="" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/sienafreeit.gif"/></td>
 <td align="right"><img alt="" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/curiosita_mossa.gif"/></td>
 </tr>
 <tr>
@@ -312,7 +321,7 @@ Alla Torre la Provaccia
 
 Un pò di nervosismo tra i canapi. Parte bene Leocorno seguito da Giraffa e Lupa. Galoppo trattenuto e solo qualche sgambatura per le altre Contrade. Nessuna caduta da registrare.<br/>
 <br/>
-</p>Il video della Provaccia (in differita)<br/><a href="http://193.205.4.40/vod/live8.html" rel="noopener noreferrer nofollow"><img alt="La prima prova (in differita)" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/film.gif"/></a>
+</p>Il video della Provaccia (in differita)<br/><img alt="La prima prova (in differita)" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/film.gif"/>
 <p></p><img alt="" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/abc1.gif"/><br/><br/>
 <b></b><b>
 La Lupa vince la Prova Generale col cavallo scosso
@@ -338,7 +347,7 @@ Onda con <a href="../../jockeys/scmulas.html">Silvano Mulas detto Voglia</a> su 
 Istrice con <a href="../../jockeys/scbruschelli.html">Luigi Bruschelli detto Trecciolino</a> su <a href="../../horses/ganosu.html">Ganosu</a> <br/>
 di rincorsa Leocorno con <a href="../../jockeys/scmureddu.html">Gianluca Mureddu</a> su <a href="../../horses/lampante.html">Lampante</a>
 <br/><br/>
-</p>Il video della  Prova Generale (in differita)<br/><a href="http://193.205.4.40/vod/live7.html" rel="noopener noreferrer nofollow"><img alt="La quinta prova o Prova Generale (in differita)" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/film.gif"/></a>
+</p>Il video della  Prova Generale (in differita)<br/><img alt="La quinta prova o Prova Generale (in differita)" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/film.gif"/>
 <p></p><img alt="" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/abc1.gif"/><br/><br/>
 <b></b><b>
 La Chiocciola vince la quarta prova
@@ -364,7 +373,7 @@ Chiocciola con <a href="../../jockeys/scvillella.html">Antonio Villella, detto S
 Giraffa con <a href="../../jockeys/scatzeni.html">Giovanni Atzeni detto Tittia</a> su <a href="../../horses/giordhan.html">Giordhan</a> <br/>
 Leocorno con <a href="../../jockeys/scmureddu.html">Gianluca Mureddu</a> su <a href="../../horses/lampante.html">Lampante</a> <br/>
 di rincorsa Lupa con <a href="../../jockeys/scfais.html">Gianluca Fais detto Vittorio</a> su <a href="../../horses/gammede.html">Gammede</a> <br/><br/>
-</p>Il video della quarta prova (in differita)<br/><a href="http://193.205.4.40/vod/live6.html" rel="noopener noreferrer nofollow"><img alt="La quarta prova (in differita)" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/film.gif"/></a>
+</p>Il video della quarta prova (in differita)<br/><img alt="La quarta prova (in differita)" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/film.gif"/>
 <p></p><img alt="" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/abc1.gif"/><br/><br/>
 <b></b><b>
 Il Leocorno domina la terza prova, ma vince la Lupa
@@ -390,7 +399,7 @@ Torre con <a href="../../jockeys/sccaria.html">Francesco Caria</a> su <a href=".
 Aquila con <a href="../../jockeys/scminisini.html">Luca Minisini detto Dè</a> su <a href="../../horses/indira-bella.html">Indira Bella</a> <br/>
 Civetta con <a href="../../jockeys/scmari.html">Andrea Mari detto Brio</a> su <a href="../../horses/istriceddu.html">Istriceddu</a> <br/>
 di rincorsa Pantera con <a href="../../jockeys/sczedde2.html">Giuseppe Zedde detto Gingillo</a> su <a href="../../horses/giove-deus.html">Giove Deus</a><br/><br/>
-Il video della terza prova (in differita)<br/><a href="http://193.205.4.40/vod/live5.html" rel="noopener noreferrer nofollow"><img alt="La terza prova (in differita)" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/film.gif"/></a>
+Il video della terza prova (in differita)<br/><img alt="La terza prova (in differita)" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/film.gif"/>
 <p></p><img alt="" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/abc1.gif"/><br/><br/>
 <b></b><b>
 La Lupa torna a montare Vittorio 
@@ -410,7 +419,7 @@ Tempi di mossa rapidi per questa seconda prova, con un cambio di monta, come ind
 <br/><br/>
 L'ordine di ingresso ai canapi per le prove è stabilito dall'articolo 62 del Regolamento del Palio. Per informazioni, <a href="../../archive/news/notizie19.html">cliccate qui</a>. 
 <br/><br/>
-</p>Il video della seconda prova (in differita)<br/><a href="http://193.205.4.40/vod/live4.html" rel="noopener noreferrer nofollow"><img alt="La seconda prova (in differita)" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/film.gif"/></a>
+</p>Il video della seconda prova (in differita)<br/><img alt="La seconda prova (in differita)" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/film.gif"/>
 <p></p><img alt="" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/abc1.gif"/><br/><br/>
 <b></b><b>
 Cambio di monta nella Chiocciola</b>
@@ -430,7 +439,7 @@ Alla mossa parte bene la Giraffa con <a href="../../jockeys/scatzeni.html">Giova
 <br/><br/>
 L'ordine di ingresso ai canapi per le prove è stabilito dall'articolo 62 del Regolamento del Palio. Per informazioni, <a href="../../archive/news/notizie19.html">cliccate qui</a>. 
 <br/><br/>
-</p>Il video della prima prova (in differita)<br/><a href="http://193.205.4.40/vod/live3.html" rel="noopener noreferrer nofollow"><img alt="La prima prova (in differita)" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/film.gif"/></a>
+</p>Il video della prima prova (in differita)<br/><img alt="La prima prova (in differita)" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/film.gif"/>
 <p></p><img alt="" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/abc1.gif"/><br/><br/>
 <b></b><b>
 L'assegnazione dei cavalli
@@ -537,7 +546,7 @@ Nel caso ciò non avvenga, significa che è la prima presenza in Piazza di quel 
 </tr>
 </table>
 <br/><p>
-</p>Il video dell'assegnazione dei cavalli (in differita)<br/><a href="http://193.205.4.40/vod/live2.html" rel="noopener noreferrer nofollow"><img alt="L'assegnazione dei cavalli del 13 agosto (in differita)" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/film.gif"/></a>
+</p>Il video dell'assegnazione dei cavalli (in differita)<br/><img alt="L'assegnazione dei cavalli del 13 agosto (in differita)" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/film.gif"/>
 <br/><p></p><img alt="" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/abc1.gif"/><br/><br/>
 <b></b><b>
 Chi ha vinto le batterie
@@ -650,7 +659,7 @@ Questa la composizione della prima batteria:<br/>
 27 GRIDO DI GALLURA - Alessio Migheli <br/>
 23 LAMENTOSU - Riccardo Tuffu <br/>
 di rincorsa 15 FRORIA - Mirko Verdigi <br/><br/>
-Il video delle batterie (in differita)<br/><a href="http://193.205.4.40/vod/live1.html" rel="noopener noreferrer nofollow"><img alt="Le batterie del 13 agosto (in differita)" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/film.gif"/></a>
+Il video delle batterie (in differita)<br/><img alt="Le batterie del 13 agosto (in differita)" border="0" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/film.gif"/>
 <br/><p></p><img alt="" loading="lazy" referrerpolicy="no-referrer" src="https://www.ilpalio.org/abc1.gif"/><br/><br/>
 <b></b><b>
 Gli invitati dal Comune
@@ -1072,15 +1081,25 @@ Articolo tratto dal Corriere di Siena del 4 luglio 2009
 <p class="muted small">File originale: <code>news2009agosto.htm</code></p>
 
 </main>
+<div class="duomo" aria-hidden="true"></div>
 <footer class="site">
  <div class="wrap">
-  <p>Contenuti di ilpalio.org (Orlando Papei e Fabrizio Gabrielli). Copia privata di lavoro: la licenza non è dichiarata su questa pagina (solo index.htm dichiara CC BY-NC), verificare prima di ripubblicare. Nessuna pubblicità, nessun fine commerciale.
-   · <a href="https://www.ilpalio.org/news2009agosto.htm" rel="noopener">Vedi pagina originale</a></p>
+  <p>Contenuti di ilpalio.org (Orlando Papei e Fabrizio Gabrielli). Copia privata di lavoro: la licenza non è dichiarata su questa pagina (solo index.htm dichiara CC BY-NC), verificare prima di ripubblicare. Nessuna pubblicità, nessun fine commerciale. · <a href="https://www.ilpalio.org/news2009agosto.htm" rel="noopener" data-i18n="footer.original">Vedi pagina originale</a></p>
   
   <p data-i18n="footer.derived">I dati contrassegnati come «derivato» sono calcolati o dedotti, non letti dalla fonte.</p>
+  <p class="muted"><span data-i18n="footer.nonprofit">Nessuna pubblicità, nessun fine commerciale.</span></p>
  </div>
 </footer>
+<nav class="tabbar" aria-label="Navigazione principale" data-i18n-attr="aria-label:skip.tabs">
+ <a href="../../index.html" data-i18n="nav.home">Home</a>
+ <a href="../../timeline.html" data-i18n="nav.races">Cronologia</a>
+ <a href="../../contrade/index.html" data-i18n="nav.contrade">Contrade</a>
+ <a href="../../jockeys/index.html" data-i18n="nav.jockeys">Fantini</a>
+ <a href="../../horses/index.html" data-i18n="nav.horses">Cavalli</a>
+ <a href="#q" id="tab-search" data-i18n="tab.search">Cerca</a>
+</nav>
 <script src="../../assets/i18n.js"></script>
 <script src="../../assets/app.js" defer></script>
+<script src="../../assets/gallery.js" defer></script>
 </body>
 </html>
